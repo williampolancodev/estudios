@@ -1,0 +1,4 @@
+Hola soy archivo de texto 22
+que tal, como estás?
+muy bien y tú?
+Soy un texto metido desde phpSoy un texto metido desde php

@@ -1,0 +1,50 @@
+<!Doctype HTML>
+<html lang="es">
+    <head>
+        <title>Mundo Salvaje</title>
+    </head> 
+    <body>
+        <!--Encabezado-->
+        <h1>Mundo Salvaje</h1>
+        <!--Menú-->
+        <ul>
+            <li><a href="inicio.html" title="Inicio">Inicio</a></li>
+            <li><a href="contenido.html" title="Contenido">Contenido</a></li>
+            <li><a href="contactanos.html" title="Contactanos">Contactanos</a></li>
+        </ul>
+
+        <hr/>
+
+        <!--Contenido de contactanos-->
+        <h2>Ingresa tu información para contáctarnos</h2>
+        
+        <form>
+            
+            <p>
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre"/>
+            </p>
+
+            <p>
+            <label for="descripcion">Descripción</label><br/>
+            <textarea name="descripcion" placeholder="Cuentanos algo"></textarea>
+            </p>
+            
+            <p>
+            <label for="genero">Genero</label>            
+            <select name="genero">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="indefinido">Indefinido</option>
+            </select>
+            </p>
+
+            <h3>Otra opción</h3>
+            <input type="radio" name="generodos" value="hombre"/>Hombre<br/>
+            <input type="radio" name="generodos" value="mujer"/>Mujer<br/>
+            <input type="radio" name="generodos" value="indefinido"/>indefinido<br/>
+            <br/>
+            <input type="submit" value="Enviar Formulario" />
+        </form>
+    </body>
+</html>
